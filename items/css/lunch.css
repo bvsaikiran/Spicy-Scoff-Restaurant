@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Niconne');
+
+:root {
+    --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    --great: 'Great Vibes',
+        cursive;
+    --tang: 'Tangerine',
+        cursive;
+    --paci: 'Pacifico',
+        cursive;
+    --nicon: 'Niconne',
+        cursive;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*-----nav bar-----------------------------*/
+.navbar {
+    background-color: rgb(37, 41, 59);
+    width: 100%;
+    box-shadow: var(--shadow);
+    padding: 0px 30px;
+
+}
+
+.navbar-brand {
+    font-family: 'Great Vibes',
+        cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 6px;
+    color: #ffffff;
+}
+
+.navbar-brand:hover {
+    color: antiquewhite;
+
+}
+
+.nav-link {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: beige;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+
+}
+
+/*=======================================*/
+/*=======================================*/
+.main-content {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: darkgray;
+}
+
+.main-content h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.main-content p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/*=============================================*/
+.card {
+    position: relative;
+    width: 370px;
+    height: auto;
+    box-shadow: var(--shadow);
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.card p {
+    color: green;
+}
+
+.card h1 {
+    color: black;
+}
+
+.btn {
+    color: rgb(83, 91, 131);
+    border: 1px solid rgb(45, 87, 150);
+    background: inherit;
+    text-transform: capitalize;
+    font-family: var(--nicon);
+}
+
+.btn:hover {
+    color: rgb(34, 39, 68);
+    box-shadow: var(--shadow);
+    border: 1px solid rgb(197, 60, 42);
+
+}
+
+
+
+
+
+/*--------------------------footer-----------------------*/
+.color5 {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    text-align: center;
+}
+
+.color5 h1 {
+    color: aliceblue;
+
+    font-family: 'Tangerine', cursive;
+    font-size: 8rem;
+    letter-spacing: 1.5rem;
+    font-weight: bolder;
+
+}
+
+.color5 p {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 8rem;
+    letter-spacing: 4rem;
+    transform: translateY(-50%);
+    opacity: 0.1;
+}
